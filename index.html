@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is a JavaScript</title>
+    </head>
+    <body>
+        
+    <!-- This is a button -->
+        <button id="y" onclick="on()">Turn on the Car</button>
+            <img id="by" src="off.gif" style="width:300px">
+        <button id="z" onclick="off()">Turn off the Car</button>
+    <!-- This is a JavaScript -->
+        <script>
+            function on(){
+                document.getElementById('by').src='on.gif';
+            };
+            function off(){
+                document.getElementById('by').src='off.gif';
+            };
+        </script>
+
+    </body>
+</html>
